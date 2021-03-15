@@ -1,0 +1,90 @@
+// конечная схема = схема фассета = схема букинга = схема bnb
+const shema1 = {
+    id: '',
+    link: '',
+    gps: '',
+    nazvanie: '',
+    plus: '',
+    star: '',
+    type: '',
+    photo: '',
+    country: '',
+    city: '',
+    cityID: '',
+    adress: '',
+    amenities: '',
+    desc: '',
+    rules: '',
+    beds: '',
+    roomType: '',
+    inRoom: '',
+    price: '',
+    review: ''
+};
+//схема всех запчастей
+const shema2 = {
+    id: '',
+    adress: '',
+    link: '',
+    gps: '',
+    nazvanie: '',
+    type: '',
+    photo: '',
+    adress: '',
+    roomType: '',
+    facil: '',
+    pfacil: '',
+    pfacilChild: '',
+    facilChild: '',
+    hfacil: '',
+    city: '',
+    cityID: '',
+    stars: '',
+    descript: '',
+    country: ''
+};
+//схема на поиске
+const shema3 = {
+    id: '',
+    adress: '',
+    link: '',
+    gps: '',
+    nazvanie: '',
+    type: '',
+    photo: '',
+    adress: '',
+    roomType: '',
+    facil: '',
+    pfacil: '',
+    pfacilChild: '',
+    facilChild: '',
+    hfacil: '',
+    city: '',
+    cityID: '',
+    stars: '',
+    descript: '',
+    country: ''
+};
+const shema4 = {
+    id: '',
+    adress: '',
+    link: '',
+    gps: '',
+    nazvanie: '',
+    type: '',
+    photo: '',
+    adress: '',
+    roomType: '',
+    facil: '',
+    pfacil: '',
+    pfacilChild: '',
+    facilChild: '',
+    hfacil: '',
+    city: '',
+    cityID: '',
+    stars: '',
+    descript: '',
+    country: ''
+};
+var shema = [shema1, shema2, shema3, shema4]
+module.exports = shema
