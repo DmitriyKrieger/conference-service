@@ -8,10 +8,10 @@ import { inout } from './inout/inout'
 
 (async ()=>{
 
-//await findCatalogs() // тащим все каталоги
-//await findConference() // идем по компаниям, берем некоторые хар-ки
+await findCatalogs() // тащим все каталоги
+//await findConference() // идем по мероприятиям
 
 
-let jsonObj=require(inout.outputFile3)
-await toExcel(jsonObj,inout.outputFile5)
+//let jsonObj=require(inout.outputFile3)
+//await toExcel(jsonObj,inout.outputFile5) // нужно перед испольование создать test.xlsx
 })()
